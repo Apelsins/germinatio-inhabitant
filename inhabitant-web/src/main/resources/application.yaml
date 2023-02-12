@@ -1,0 +1,15 @@
+server:
+  port : 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/db_inhabitant
+    username: postgres
+    password: postgres
+  flyway:
+    enabled: true
+    validate-on-migrate: true
+
+#logging:
+#  level:
+#    root: DEBUG
